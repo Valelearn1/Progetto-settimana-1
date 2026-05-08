@@ -15,8 +15,8 @@ body {
 }
 
 #site-header {
-    background-color: white;
-    background-image: url(http://picsum.photos/seed/picsum/1240/768);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(http://picsum.photos/seed/picsum/1240/768);
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -30,6 +30,7 @@ body {
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    line-height: 0.8;
 }
 
 .tagline {
@@ -44,21 +45,25 @@ body {
 
 #site-header nav li {
     display: inline-block;
+    border: 1px solid rgba(251, 249, 249, 0.478);
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 #site-header nav a {
-    color: rgb(2, 25, 69);
+    color: rgb(240, 243, 249);
+    text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    padding: 8px 16px;
-    margin: 0 4px;
+    margin-left: 4px;
     border-radius: 4px;
     line-height: 1.6;
 }
 
 
-#site-header nav a:hover {
-    color: hsl(220, 35%, 44%);
+#site-header nav li:hover {
+    color: hsl(219, 14%, 55%);
     background-color: rgba(203, 218, 251, 0.446);
 }
 
