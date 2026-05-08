@@ -56,11 +56,10 @@ body {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin-left: 4px;
+    margin-left: 8px;
     border-radius: 4px;
     line-height: 1.6;
 }
-
 
 #site-header nav li:hover {
     color: hsl(219, 14%, 55%);
@@ -71,6 +70,7 @@ main {
     max-width: 920px;
     margin: 0 auto;
     padding: 40px 20px;
+    margin-top: -88px;
 }
 
 main section {
