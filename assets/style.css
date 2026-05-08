@@ -1,0 +1,248 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#site-header {
+    background-color: white;
+    background-image: url(http://picsum.photos/seed/picsum/1240/768);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    line-height: 3;
+    padding: 60px 20px 40px;
+    border-bottom: 4px solid hsl(220, 89%, 64%);
+}
+
+#site-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tagline {
+    color: hsl(225, 40%, 96%);
+    font-style: italic;
+}
+
+#site-header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#site-header nav li {
+    display: inline-block;
+}
+
+#site-header nav a {
+    color: rgb(2, 25, 69);
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+
+
+#site-header nav a:hover {
+    color: hsl(220, 35%, 44%);
+    background-color: rgba(203, 218, 251, 0.446);
+}
+
+main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+main section {
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    font-size: 2em;
+    color: hsl(220, 60%, 30%);
+    text-align: left;
+}
+
+main section h2::before {
+    content: "— ";
+    color: hsl(220, 89%, 64%);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: hsl(220, 60%, 30%);
+    text-align: left;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border: 4px solid;
+    color: hsl(220, 89%, 64%);
+    border-radius: 50%;
+    float: left;
+    margin: 0 24px 12px 0;
+}
+
+#chi-sono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+#chi-sono p:first-of-type {
+    font-size: 1.3em;
+    font-style: italic;
+    color: rgb(1, 18, 86);
+}
+
+#chi-sono p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color: hsl(221, 91%, 51%);
+}
+
+#competenze {
+    clear:both
+}
+
+.skill-list {
+    line-height: 2.2;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color: rgb(219, 248, 249);
+}
+
+.skill-list li:nth-child(even) {
+    background-color: rgb(246, 244, 209);
+}
+
+.skill-list li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+    background-color: rgb(224, 244, 245);
+}
+
+.project:nth-of-type(even) {
+    background-color: rgb(246, 249, 247);
+}
+
+.project:first-of-type h3::after {
+    content: "NEW";
+    display: inline-block;
+    padding: 4px 8px;
+    margin-left: 12px;
+    background-color: rgb(9, 155, 126);
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td, caption {
+    border: 1px solid; color: black;
+}
+
+.caption {
+    background-color: rgb(219, 248, 249);
+}
+
+.container {
+    display:inline;
+}
+
+.funFacts, h4 {
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: rgb(55, 145, 112);
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+label {
+    font-weight: bold;
+    color: hsl(220, 60%, 30%);
+}
+
+input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background-color: rgb(245, 251, 251);
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(164, 234, 234);
+    color: #000000;
+}
+
+.consent {
+    width: auto;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #999999;
+    font-style: italic;
+}
+
+input[type="checkbox"] {
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+button {
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(220, 49%, 27%);
+    font-weight: bold;
+    width: 30%;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(219, 87%, 76%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#site-footer {
+    background-color: rgb(11, 30, 66);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2.4;
+    padding: 30px 20px;
+}
